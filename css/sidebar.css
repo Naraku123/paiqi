@@ -1,0 +1,84 @@
+/*sidebar区域开始*/
+.sidebar {
+    width: 50px;
+    height: 250px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    margin-top: -125px;
+    right: 0;
+    z-index: 20;
+}
+.sidebar li {
+    border-bottom: 1px solid #cccccc;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+.sidebar li:hover span{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.sidebar li:hover .icon1 {
+    background: #000000 url(../images/aside-img001.png) center no-repeat;
+}
+.sidebar li:hover .icon2 {
+    background: #000000 url(../images/aside-img002.png) center no-repeat;
+}
+.sidebar li:hover .icon3 {
+    background: #000000 url(../images/aside-img003.png) center no-repeat;
+}
+.sidebar li:hover .icon4 {
+    background: #000000 url(../images/aside-img004.png) center no-repeat;
+}
+.sidebar li:hover .icon5 {
+    background: #000000 url(../images/aside-img005.png) center no-repeat;
+}
+.sidebar li a {
+    display: inline-block;
+    width: 50px;
+    height: 49px;
+}
+.sidebar a i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 50px;
+    height: 49px;
+    z-index: 1000;
+}
+.sidebar a .icon1 {
+    background: #EAEAEA url(../images/aside-img01.png) center no-repeat;
+}
+.sidebar a .icon2 {
+    background: #EAEAEA url(../images/aside-img02.png) center no-repeat;
+}
+.sidebar a .icon3 {
+    background: #EAEAEA url(../images/aside-img03.png) center no-repeat;
+}
+.sidebar a .icon4 {
+    background: #EAEAEA url(../images/aside-img04.png) center no-repeat;
+}
+.sidebar a .icon5 {
+    background: #EAEAEA url(../images/aside-img05.png) center no-repeat;
+}
+.sidebar li .text {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    color: #181818;
+    font-weight: 700;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    background-color: #EAEAEA;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
+    line-height: 50px;
+    padding-left: 30px;
+    z-index: 10;
+}
+/*sidebar区域结束*/

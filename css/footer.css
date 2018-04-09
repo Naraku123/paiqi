@@ -1,0 +1,70 @@
+
+
+
+/*底部区域*/
+footer {
+    height: 200px;
+    background-color: #F0F0F0;
+    padding: 40px 0 56px;
+    box-sizing: border-box;
+}
+.foot_box {
+    height: 104px;
+}
+.foot_box .left-part {
+    width: 685px;
+    height: 100%;
+}
+.left-part .ul1 {
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 15px;
+}
+.left-part .ul2 {
+    padding: 15px 0;
+}
+.left-part .ul2 li,
+.left-part .ul1 li {
+    float: left;
+    margin-left: 25px;
+}
+.left-part .ul2 li:nth-child(4){
+    background-color: #666;
+    margin-top: 7px;
+    height: 10px;
+    width: 1px;
+}
+.left-part .ul1 li a {
+    font-size: 14px;
+    color: #666;
+}
+.left-part .ul2 li a {
+    font-size: 13px;
+    color: #666;
+}
+.left-part .ul2 li:first-child,
+.left-part .ul1 li:first-child {
+    margin-left: 0;
+}
+.left-part p {
+    font-size: 12px;
+    color: #999;
+}
+.foot_box .right-part2 span {
+    font-size: 18px;
+    color: #363636;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+.foot_box .right-part2 {
+    padding-left: 15px;
+}
+.foot_box .right-part2 p {
+    font-size: 13px;
+    color: #666;
+    line-height: 20px;
+}
+.foot_box .right-part1 img {
+    vertical-align: middle;
+}

@@ -1,0 +1,936 @@
+.main {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+/*背景图片区域*/
+.app_bg {
+    height: 850px;
+    margin: 0 auto;
+    background-image: url(../picture/wechat-ban02.jpg);
+    background-size: 1930px 850px;
+    padding-top: 78px;
+}
+
+/*版心区域*/
+.app {
+    position: relative;
+    height: 685px;
+}
+
+/*版心左区域*/
+.app_left {
+    width: 540px;
+    height: 685px;
+    padding-top: 70px;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    z-index: 5;
+    opacity: 0.1;
+}
+
+.app_img {
+    margin-left: -20px;
+}
+
+.app_left_p1 {
+    font-size: 36px;
+    color: #010101;;
+}
+
+.app_left_p2 {
+    font-size: 40px;
+    color: #0E55B4;
+    font-weight: 700;
+}
+
+.app_left_bt {
+    padding-top: 78px;
+}
+
+.app_left_bt div {
+    width: 240px;
+    height: 58px;
+}
+
+.app_left_bt div:nth-child(2) {
+    width: 280px;
+    height: 58px;
+}
+
+.app_left_bt img {
+    margin-right: 20px;
+}
+
+.app_left_bt div p:nth-of-type(1) {
+    font-size: 20px;
+    color: #1258B5;
+    font-weight: 700;
+}
+
+.app_left_bt div p:nth-of-type(2) {
+    font-size: 16px;
+    color: #666;
+}
+
+/*版心右区域*/
+.app_right {
+    height: 100%;
+    width: 600px;
+    padding-top: 35px;
+    position: absolute;
+    left: 400px;
+    top: 0;
+    opacity: 0.1;
+}
+
+.phone {
+    width: 325px;
+    height: 653px;
+    background-image: url("../picture/wechat-applet-banner13.png");
+    position: relative;
+}
+
+.phone li {
+    position: absolute;
+    left: 19px;
+    top: 72px;
+}
+
+.phone li:nth-child(2),
+.phone li:nth-child(3) {
+    box-shadow: -13px 19px 50px 0px rgba(0, 0, 0, .5);
+}
+
+/*移动端下部分区块开始*/
+.weChat {
+    height: 720px;
+    width: 100%;
+    background: url("../images/wechat-applet-img03.jpg") center center no-repeat;
+    padding-top: 125px;
+    position: relative;
+}
+
+.weChat_m {
+    position: relative;
+    left: 0;
+    bottom: -100px;
+}
+
+.weChat_m > div {
+    width: 324px;
+    height: 500px;
+    /*background-color: #ff0000;*/
+}
+
+.weChat_left {
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+
+.weChat_middle {
+    position: absolute;
+    top: 0;
+    left: 440px;
+}
+
+.weChat_right {
+    position: absolute;
+    top: 0;
+    left: 820px;
+}
+
+.imgs {
+    width: 324px;
+    height: 343px;
+    position: relative;
+}
+
+.imgs .phone1 {
+    position: absolute;
+    left: 36px;
+    top: 0;
+    z-index: 1;
+}
+
+.imgs .phone2 {
+    position: absolute;
+    left: 127px;
+    top: 0;
+}
+
+.imgs .phone3 {
+    position: absolute;
+    left: 127px;
+    top: 248px;
+    z-index: 4;
+    transition: transform .5s;
+}
+.imgs:hover .phone3,
+.imgs:hover .phone3,
+.imgs:hover .phone3{
+    transform: rotate(-50deg);
+}
+.wxAppBox1 {
+    list-style: none;
+    height: 256px;
+    width: 144px;
+    margin: 0 auto;
+    perspective: 1000px;
+    position: absolute;
+    left: 59px;
+    top: 38px;
+    z-index: 3;
+    cursor: pointer;
+}
+.wxAppBox1 .tp {
+    height: 128px;
+    width: 144px;
+    background-position: top left;
+    transition: transform 0.6s;
+    transform-origin: bottom;
+    transform: rotateX(-180deg);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wxAppBox1 .bm {
+    height: 128px;
+    width: 144px;
+    background-position: bottom left;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+.weChat_left_b {
+    text-align: center;
+}
+
+.weChat_left_b a.p1 {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.weChat_left_b a.p2 {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #808080;
+}
+
+/*业务特征 第一部分*/
+.main-box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 270px;
+}
+.service-feature-1 {
+    height: 270px;
+    width: 90%;
+    background: url("../images/marketing-content-bg01.jpg") 0 0 repeat;
+    padding-top: 80px;
+    text-align: center;
+    position: absolute;
+    transition: width 0.6s;
+    /*left: -250px;*/
+    left: 0;
+    top: 0;
+}
+
+.service-feature-1 .sf1box {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.service-feature-1 .p1 {
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.service-feature-1 .p2 {
+    font-size: 15px;
+    color: #666;
+}
+
+/*业务特征 第二部分*/
+
+.main-box1 {
+    position: relative;
+    width: 100%;
+    height: 476px;
+}
+.service-feature-2 {
+    width: 90%;
+    height: 676px;
+    background-image: url("../images/wechat-applet-bg01.png");
+    background-size: 100% 676px;
+    margin-top: -110px;
+    transition: width 0.6s;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*left: 200px;*/
+}
+
+.service-feature-2 .sf2box {
+    width: 1130px;
+    height: 602px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.service-feature-2 .sf2box .imgbox2 {
+    width: 460px;
+    height: 383px;
+
+}
+
+.content-box h1,
+.sf3-leftbox h1,
+.imgbox2 h1 {
+    font-size: 34px;
+    color: #fff;
+}
+
+.content-box i,
+.sf3-leftbox i,
+.imgbox2 i {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #484949;
+    margin: 18px 0 35px;
+}
+
+.sf3-leftbox i {
+    background-color: #4A79BC;
+    margin: 15px 0 35px;
+}
+
+.content-box i {
+    background-color: #5AB57C;
+    margin: 15px 0 35px;
+}
+
+.content-box span,
+.sf3-leftbox span,
+.imgbox2 span {
+    font-size: 20px;
+    color: #fff;
+}
+.sf3-leftbox .tgColor {
+    color: #fff;
+    font-size: 15px;
+}
+.content-box p,
+.imgbox2 p {
+    font-size: 15px;
+    color: #E0E0E0;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.imgbox2 .iconbox {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.iconbox2 li,
+.imgbox2 .iconbox li {
+    float: left;
+    padding: 0 27px;
+}
+
+.iconbox2 li:first-child,
+.imgbox2 .iconbox li:first-child {
+    padding-left: 0;
+}
+
+.iconbox2 li p,
+.imgbox2 .iconbox li p {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background: url("../images/wechat-applet-icon04.png") no-repeat;
+}
+
+.imgbox2 .iconbox li:nth-of-type(2) p {
+    background: url("../images/wechat-applet-icon01.png") no-repeat;
+}
+
+.imgbox2 .iconbox li:nth-of-type(3) p {
+    background: url("../images/wechat-applet-icon02.png") no-repeat;
+}
+
+.imgbox2 .iconbox li:nth-of-type(4) p {
+    background: url("../images/wechat-applet-icon03.png") no-repeat;
+}
+
+.iconbox2 li:nth-of-type(1) p {
+    background: url("../images/wechat-applet-icon05.png") no-repeat;
+}
+
+.iconbox2 li:nth-of-type(2) p {
+    background: url("../images/wechat-applet-icon06.png") no-repeat;
+}
+
+.iconbox2 li:nth-of-type(3) p {
+    background: url("../images/wechat-applet-icon07.png") no-repeat;
+}
+
+.iconbox2 span {
+    font-size: 14px;
+    color: #8AA1CC;
+}
+
+.imgbox2 .iconbox span {
+    font-size: 14px;
+    color: #676869;
+}
+
+/*功业务特征 第三部分*/
+.main-box2 {
+    position: relative;
+    height: 676px;
+    width: 100%;
+}
+.service-feature-3 {
+    position: absolute;
+    height: 676px;
+    width: 90%;
+    background-image: url("../images/wechat-applet-bg03.png");
+    background-size: 100% 676px;
+    padding-top: 99px;
+    transition: width 0.6s;
+    z-index: 5;
+    top: -20px;
+    left: 0;
+    /*left: -200px;*/
+}
+
+.service-feature-3 .sf3 {
+    height: 413px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.service-feature-3 .sf3 .sf3-leftbox {
+    padding-top: 130px;
+    width: 495px;
+    height: 412px;
+}
+
+.iconbox2 {
+    margin-top: 55px;
+}
+
+/*功业务特征 第四部分*/
+
+.service-feature-4 .surbox {
+    position: absolute;
+    left: 490px;
+    top: 190px;
+}
+.main-box3 {
+    position: relative;
+    width: 100%;
+    height: 641px;
+}
+
+.service-feature-4 {
+    position: absolute;
+    width: 90%;
+    height: 641px;
+    background-image: url("../images/wechat-applet-bg02.png");
+    background-size: 100% 641px;
+    transition: width 0.6s;
+    /*left: 200px;*/
+    right: 0;
+    z-index: 10;
+    top: -120px;
+}
+
+.service-feature-4 .content-box {
+    width: 435px;
+    height: 194px;
+    position: absolute;
+    left: 560px;
+    top: 190px;
+}
+
+/*代表案例*/
+.representative-case {
+    width: 100%;
+    height: 922px;
+    /*padding-top: 100px;*/
+}
+
+.text-common {
+    text-align: center;
+}
+
+.text-common p:first-child {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #333;
+}
+
+.text-common p:last-child {
+    font-size: 15px;
+    color: #666;
+}
+
+.tabs {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    height: 44px;
+    text-align: center;
+}
+
+.tabs a {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid #EAEAEA;
+    color: #555;
+}
+
+.tabs a:hover {
+    background-color: blue;
+    color: #fff;
+}
+.mobile-case-show {
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+}
+/*.mobile-case-show li {*/
+/*float: left;*/
+/*width: 302px;*/
+/*margin-right: 16px;*/
+/*}*/
+
+/*.mobile-case-show li:last-child {*/
+/*margin-right: 0;*/
+/*}*/
+
+.mobile-case-show .imgbox p {
+    font-size: 15px;
+    color: #333;
+    margin: 20px 0 5px;
+}
+
+.mobile-case-show .imgbox span {
+    font-size: 12px;
+    color: #777;
+}
+/*.mobile-case-show .imgbox li div {*/
+/*width: 302px;*/
+/*height: 526px;*/
+/*overflow: hidden;*/
+/*}*/
+/*.mobile-case-show .imgbox li a img {*/
+/*transition: transform 2.5s;*/
+/*}*/
+#closebox {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    color: #0E55B4;
+    background-color: #fff;
+    font-weight: 900;
+    text-align: center;
+    display: none;
+    z-index: 20;
+    cursor: pointer;
+}
+.mobile-case-show li {
+    position: absolute;
+    transition: transform 1.5s;
+    z-index: 5;
+}
+.place1 {
+    left: 0;
+    top: 0;
+}
+.place2 {
+    left: 319px;
+    top: 0;
+}
+.place3 {
+    left: 638px;
+    top: 0;
+}
+.place4 {
+    left: 957px;
+    top: 0;
+}
+
+.toPlace1 {
+    left: 300px;
+    top: 200px;
+    transform: scale(0.15);
+}
+.toPlace2 {
+    left:400px;
+    top: 200px;
+    transform: scale(0.15);
+}
+.toPlace3 {
+    left: 500px;
+    top: 200px;
+    transform: scale(0.15);
+}
+.toPlace4 {
+    left: 600px;
+    top: 200px;
+    transform: scale(0.15);
+}
+#hidbox {
+    display: none;
+    width: 5040px;
+    height: 552px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#hidbox img {
+    float: left;
+}
+
+.solute-way {
+    width: 100%;
+    height: 200px;
+    background-color: #F4F4F4;
+    padding: 85px 0;
+}
+
+/*功能整合解决方案*/
+.way-bg-box {
+    /*height: 347px;*/
+    background: #F3F3F3 url("../images/wechat-applet-bg05.png") center -90px;
+    transform: translateX(20px);
+}
+
+.way-bg-box-left {
+    margin-top: -9px;
+    width: 937px;
+}
+
+.way-bg-box-left li {
+    float: left;
+    width: 297px;
+    height: 129px;
+    position: relative;
+    perspective: 400px;
+    overflow: hidden;
+    margin-right: 23px;
+    margin-bottom: 20px;
+}
+.way-bg-box-left li a {
+    display: block;
+    width: 297px;
+    height: 129px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .12);
+
+    padding: 40px;
+}
+
+.way-bg-box-left li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.way-bg-box-left ul {
+    margin-top: 37px;
+    margin-left: -17px;
+    height: 500px;
+}
+
+.way-bg-box-left p {
+    color: #666;
+}
+
+.way-bg-box-left span {
+    font-size: 12px;
+    color: #BCBCBC;
+}
+
+.way-bg-box-left .left {
+    margin: 5px;
+}
+
+.way-bg-box-left i {
+    display: block;
+    width: 75px;
+    height: 60px;
+    background: url("../images/a1.png") no-repeat;
+}
+/*#help li:hover a{*/
+/*background-color: #1E59A9;*/
+/*}*/
+/*#help li:hover p{*/
+/*color: #fff;*/
+/*}*/
+#help > li > div {
+    width: 297px;
+    height: 129px;
+    position: absolute;
+    transition: transform 0.5s;
+    left: 0;
+    top: 0;
+    z-index: 4;
+}
+.inRight {
+    transform-origin: 100% 100%;
+    animation: inRight 300ms ease 0ms 1 forwards;
+}
+.outRight {
+    transform-origin: 100% 100%;
+    animation: outRight 300ms ease 0ms 1 forwards;
+}
+.inLeft {
+    transform-origin: 0% 100%;
+    animation: inLeft 300ms ease 0ms 1 forwards;
+}
+.outLeft {
+    transform-origin: 0% 100%;
+    animation: outLeft 300ms ease 0ms 1 forwards;
+}
+.inTop {
+    transform-origin: 50% 0%;
+    animation: inTop 300ms ease 0ms 1 forwards;
+}
+.outTop {
+    transform-origin: 50% 0%;
+    animation: outTop 300ms ease 0ms 1 forwards;
+}
+.inBottom {
+    transform-origin: 50% 100%;
+    animation: inBottom 300ms ease 0ms 1 forwards;
+}
+.outBottom {
+    transform-origin: 50% 100%;
+    animation: outBottom 300ms ease 0ms 1 forwards;
+}
+@keyframes inRight {
+    from {
+        transform: rotate3d(0, -1, 0, 90deg);
+    }
+    to {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+}
+@keyframes outRight {
+    from {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+        transform: rotate3d(0, -1, 0, 114deg);
+    }
+}
+@keyframes inLeft {
+    from {
+        transform: rotate3d(0, 1, 0, 90deg);
+    }
+    to {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+}
+@keyframes outLeft {
+    from {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+        transform: rotate3d(0, 1, 0, 114deg);
+    }
+}
+@keyframes inTop {
+    from {
+        transform: rotate3d(-1, 0, 0, 90deg);
+    }
+    to {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+}
+@keyframes outTop {
+    from {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+        transform: rotate3d(-1, 0, 0, 104deg);
+    }
+}
+@keyframes inBottom {
+    from {
+        transform: rotate3d(1, 0, 0, 90deg);
+    }
+    to {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+}
+@keyframes outBottom {
+    from {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+        transform: rotate3d(1, 0, 0, 104deg);
+    }
+}
+.way-bg-box-right {
+    width: 298px;
+    height: 427px;
+    margin: 28px 18px 0 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .12);
+    text-align: center;
+    padding-top: 60px;
+    background-color: #fff;
+}
+
+.way-bg-box-right span {
+    font-size: 16px;
+    color: #666;
+}
+
+.way-bg-box-right p {
+    font-size: 29px;
+    color: #BCBCBC;
+    font-family: 'Arial Bold';
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.bgc {
+    background-color: #F0F0F0;
+}
+
+/*我们的观点区域*/
+/*我们的观点区域*/
+.weChat-idea {
+    width: 100%;
+    height: 750px;
+    background: url("../images/exploit-img13.jpg");
+    padding-top: 35px;
+}
+.weChat-idea .text {
+    margin-bottom: 30px;
+}
+.weChat-idea .text h1 {
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.shoufq .list-box h3 {
+    font-size: 36px;
+    text-indent: 1em;
+    color: gold;
+    font-weight: 600;
+}
+
+.weChat-idea .text p {
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+.weChat-idea .list-box {
+    width: 1300px;
+    position: relative;
+}
+.weChat-idea .list-box li {
+    float: left;
+    height: 536px;
+    padding-top: 300px;
+    position: relative;
+}
+.shoufq .list-box li:nth-child(2) {
+    padding-top: 100px;
+}
+.shoufq .list-box li:nth-child(3) {
+    padding-top: 60px;
+}
+.shoufq .list-box a {
+    display: block;
+    width: 80px;
+    height: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: royalblue;
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+    overflow: hidden;
+}
+
+.list-box .txt {
+    padding-top: 20px;
+}
+
+.list-box .txt dt {
+    font-size: 26px;
+    color: #fff;
+}
+
+.list-box .txt span {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin: 8px 0 8px;
+}
+.list-box .txt p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 30px;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.list-box .txt a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+.list-box .txt a:after{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 9px;
+    background-image: url("../images/exploit-img14.png");
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    margin-top: -4px;
+}

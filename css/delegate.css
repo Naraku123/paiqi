@@ -1,0 +1,207 @@
+body {
+    background-color: #F4F6F9;
+}
+.main {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.esb_case_txt {
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+    top: 300px;
+    opacity: 0.1;
+    left: 0;
+}
+
+.esb_case_txt h1 {
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.esb_case_txt p {
+    font-size: 16px;
+    color: #565656;
+}
+
+.esb_case_txt .more {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    font-size: 15px;
+    margin: 24px 0 10px;
+}
+
+.esb_case_txt .lab {
+    width: 100%;
+    position: relative;
+}
+
+.esb_case_txt .lab li {
+    display: inline-block;
+}
+
+.esb_case_txt .lab li a {
+    display: inline-block;
+    width: 140px;
+    height: 62px;
+    float: left;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+    z-index: 5;
+}
+.esb_case_txt .current {
+    background-image: url("../images/brn-bg.png");
+    width: 140px;
+    height: 62px;
+    position: absolute;
+    left: 230px;
+    top: 0;
+}
+.imgs {
+    width: 100%;
+    position: relative;
+}
+
+.imgs .imgs_attr {
+    box-sizing: border-box;
+    width: 385px;
+}
+.imgs  div.left{
+    margin-right: 12px;
+}
+.imgs_attr .img {
+    width: 385px;
+    height: 312px;
+    overflow: hidden;
+}
+.imgs_attr img {
+    width: 385px;
+    transition: transform 1.5s;
+}
+.imgs_attr  dl {
+    padding: 15px 0;
+}
+
+.imgs_attr dt {
+    font-size: 15px;
+    color: #363636;
+}
+
+.imgs_attr dd {
+    font-size: 12px;
+    color: #777777;
+    margin-top: 5px;
+}
+.imgs_attr {
+    position: relative;
+}
+ .add-1 {
+    width: 385px;
+    height: 312px;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    left: 0;
+    top: 0;
+    display: none;
+}
+ .add-2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.add-1 i {
+    display: block;
+    width: 66px;
+    height: 66px;
+    background: url("../picture/view-btn.png");
+}
+ .add-1 span {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Arial';
+}
+.imgs_attr:hover img{
+    transform: scale(1.06);
+}
+.imgs_attr:hover .add-1 {
+    display: block;
+}
+
+.txt {
+    width: 1180px;
+    height: 84px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../images/case-page-img14.jpg);
+    margin: 20px 0  35px 0;
+}
+.txt img {
+    margin-top: 30px;
+}
+.page {
+    width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0 78px;
+}
+.page li {
+    display: inline-block;
+    background-color: #1C6AC3;
+    margin: 0 2px;
+}
+.page li span {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    background-color:#EFEFEF;
+}
+.page .cur {
+    color: #fff;
+    background-color:#1C6AC3;
+}
+.dimo {
+    position: relative;
+    overflow: hidden;
+    height: 1700px;
+    margin-top: 20px;
+    top: 200px;
+    left: 0;
+    opacity: 0.1;
+}
+.dimo li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.dimo li:first-child {
+    z-index: 10;
+    display: block;
+}
+.box1,.box2,.box3{
+    position: relative;
+    top: 200px;
+    left: 0;
+    opacity: 0.1;
+}
+
+.box4,.box5,.box6{
+    position: relative;
+    top: 200px;
+    left: 0;
+    opacity: 0.1;
+}

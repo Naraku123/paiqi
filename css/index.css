@@ -1,0 +1,738 @@
+/*轮播图部分开始*/
+nav {
+    height: 750px;
+    /*background-color: lime;*/
+}
+.nav-slide {
+    width: 1349px;
+    margin: 0 auto;
+}
+.nav-slide-box {
+    width: 1349px;
+    height: 750px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.nav-slide-box ul {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0;
+    /*width: 8094px;*/
+    width: 700%;
+    height: 750px;
+}
+.slides-push {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.nav-slide-box .counts {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -210px;
+}
+.nav-slide-box .counts span {
+    width: 65px;
+    height: 3px;
+    background-color: #BDBDBD;
+    margin: 0 3px;
+    cursor: pointer;
+    /*transition: height .4s;*/
+}
+/*.nav-slide-box .counts span:hover {*/
+/*height: 10px;*/
+/*}*/
+.nav-slide-box .counts .count {
+    background-color: #007aff;
+}
+.slideshow {
+    position: relative;
+    overflow: hidden;
+    width: 1349px;
+    height: 750px;
+}
+.slideshow img {
+    opacity: 1;
+}
+.slideshow1,.slideshow7 {
+    background: url(../picture/index-banner-img30.jpg) center no-repeat;
+}
+.slideshow1 p,.slideshow7 p {
+    position: absolute;
+}
+.slideshow a {
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Arial Bold" !important;
+    color: #E4E6E8;
+    border: 2px solid #9E9E9E;
+    padding: 10px 30px;
+    border-radius: 45px;
+    /*transition: all .6s;*/
+    position: absolute;
+}
+.slideshow1 .img-1 {
+    left: -145px;
+    top: 159px;
+    opacity: 0;
+}
+.slideshow1 .img-2 {
+    left: -200px;
+    top: 239px;
+    opacity: 0;
+}
+.slideshow1 .img-01 {
+    left: 300px;
+    top: 192px;
+    opacity: 0;
+}
+.slideshow1 .more {
+    top: 600px;
+    left: 45px;
+    opacity: 0;
+}
+.slideshow7 .img-1 {
+    left: 45px;
+    top: 159px;
+}
+.slideshow7 .img-2 {
+    left: 45px;
+    top: 239px;
+}
+.slideshow7 .img-01 {
+    left: 110px;
+    top: 192px;
+}
+.slideshow7 .more {
+    top: 418px;
+    left: 45px;
+}
+.slideshow2 {
+    background: url(../images/index-banner-img18.jpg) center no-repeat;
+}
+.slideshow2 p {
+    position: absolute;
+}
+.slideshow2 .img-3 {
+    right: 0;
+    bottom: 0;
+}
+.slideshow2 .img-4 {
+    top: 228px;
+    left: 45px;
+}
+.slideshow2 .img-4 img:last-child {
+    position: absolute;
+    top: -28px;
+    left: 50px;
+}
+.slideshow2 .img-5 {
+    top: 290px;
+    left: -45px;
+    opacity: 0;
+    /*transition: all 0.005s;*/
+}
+.slideshow2 .text {
+    font-size: 17px;
+    top: 355px;
+    left: 45px;
+    color: #65676B;
+    line-height: 26px;
+}
+.slideshow2 .img-6 {
+    top: 462px;
+    left: 45px;
+}
+.slideshow3 {
+    background: url(../images/index-banner-img42.jpg) center no-repeat;
+}
+.slideshow3 p {
+    position: absolute;
+}
+.slideshow3 .img-7 {
+    top: 230px;
+    left: -145px;
+    opacity: 0;
+}
+.slideshow3 .img-8 {
+    top: 292px;
+    left: 45px;
+}
+.slideshow3 .img-08 {
+    bottom: 0px;
+    right: 96px;
+}
+.slideshow3 .link {
+    top: 435px;
+    left: 45px;
+}
+.slideshow3 .more {
+    top: 435px;
+    left: 212px;
+}
+.slideshow4 {
+    background: url(../images/index-banner-img15.jpg) center no-repeat;
+}
+.slideshow4 p {
+    position: absolute;
+}
+.slideshow4 .img-9 {
+    right: 52px;
+    bottom: 0;
+}
+.slideshow4 .img-10 {
+    left: 45px;
+    top: 170px;
+}
+.slideshow4 .img-11 {
+    left: 134px;
+    top: 170px;
+}
+.slideshow4 .img-011 {
+    left: 45px;
+    bottom: 194px;
+}
+.slideshow4 .img-012 {
+    left: 64px;
+    bottom: 110px;
+}
+.slideshow4 .img-12 {
+    left: 45px;
+    top: 211px;
+}
+.slideshow4 .more {
+    left: 45px;
+    top: 354px;
+}
+.slideshow5 {
+    background: url(../images/about-paiky-banner.jpg) center no-repeat;
+}
+.slideshow5 p {
+    position: absolute;
+}
+.slideshow5 .img-13 {
+    right: 202px;
+    bottom: 0;
+}
+.slideshow5 .img-13 img:nth-child(2) {
+    position: absolute;
+    left: 126px;
+    bottom: 100px;
+}
+.slideshow5 .img-13 img:nth-child(3) {
+    position: absolute;
+    left: 254px;
+    bottom: 125px;
+}
+.slideshow5 .img-14 {
+    left: 45px;
+    top: 200px;
+}
+.slideshow5 .img-15 {
+    left: 45px;
+    top: 273px;
+}
+.slideshow5 .img-16 {
+    left: 45px;
+    top: 346px;
+}
+.slideshow5 .img-17 {
+    left: 45px;
+    top: 403px;
+}
+.slideshow5 .img-18 {
+    left: 108px;
+    top: 403px;
+}
+.slideshow5 .img-19 {
+    left: 175px;
+    top: 403px;
+}
+.slideshow5 .more {
+    left: 45px;
+    top: 503px;
+    color: #ccc;
+}
+.slideshow6 {
+    background: url(../images/index-banner-img34.jpg) center no-repeat;
+}
+.slideshow6 p {
+    position: absolute;
+}
+.slideshow6 .img-20 {
+    left: 45px;
+    top: 177px;
+}
+.slideshow6 .img-21 {
+    left: 45px;
+    top: 233px;
+}
+.slideshow6 .img-22 {
+    left: 45px;
+    top: 305px;
+}
+.slideshow6 .more {
+    left: 70px;
+    top: 438px;
+}
+.slideshow .more:hover, .slideshow .link:hover {
+    background-color: rgb(28, 88, 171);
+    color: #fff;
+}
+/*轮播图部分结束*/
+/*主体顶部部分开始*/
+.paiky-direction {
+    padding-top: 30px;
+    text-align: center;
+    height: 555px;
+    position: relative;
+}
+.paiky-direction-box {
+    margin-top: 98px;
+    position: absolute;
+    top: 60px;
+    opacity: 0;
+}
+.paiky-direction-box li{
+    width: 25%;
+    height: 180px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    border-left: 1px solid #EAEAEA;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+/*.paiky-direction-box li:nth-child(2),.paiky-direction-box li:nth-child(3) {*/
+/*padding-top: 25px;*/
+/*}*/
+.paiky-direction-box li:last-child {
+    border-right: 1px solid #EAEAEA;
+}
+.paiky-direction-box li  h3 {
+    font-size: 18px;
+    margin: 15px 0 5px;
+}
+.paiky-direction-box li p {
+    margin-top: 5px;
+}
+.paiky-direction-box li:hover{
+    background-color: rgba(28, 88, 171, .6);
+    /*transform: translate(10%, -20%);*/
+    /*border-radius: 20px 20px;*/
+}
+.paiky-direction-box li:nth-child(3):hover,
+.paiky-direction-box li:nth-child(4):hover {
+    /*transform: translate(-10%, -20%);*/
+}
+.paiky-direction-point {
+    margin: 86px 0 66px;
+}
+.paiky-direction-point h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -158px;
+    bottom: 20px;
+}
+.paiky-direction-point p {
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    margin-left: -123px;
+    bottom: 0;
+}
+.paiky-direction-box li:hover h3,.paiky-direction-box li:hover p,.paiky-direction-box li:hover span {
+    color: #fff;
+}
+/*主体顶部部分结束*/
+
+/*主体案例部分开始*/
+.paiky-case {
+    height: 972px;
+    background: url(../images/index-bg01.jpg) 0 0 repeat;
+}
+.case-banner {
+    text-align: center;
+    padding-top: 80px;
+    background: url(../images/index-bg01.jpg) 0 0 repeat;
+}
+.case-banner  h2 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 3px;
+    font-weight: 400;
+}
+.case-banner p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+}
+.case-banner-ul {
+    margin:35px 0 60px 398px;
+}
+.case-banner-ul li span{
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    padding: 5px 0;
+    margin-right: 66px;
+    cursor: pointer;
+}
+.case-banner-ul li .current {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    padding: 4px 0;
+}
+.case-box {
+    width: 1208px;
+    height: 540px;
+    /*background-color: lime;*/
+    margin: 0 auto;
+}
+.case-boxes .case-box1-small img {
+    vertical-align: middle;
+}
+.case-boxes .right {
+    margin-left: 907px;
+}
+.case-box1-small {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.case-box1-small img {
+    transition: all 1s;
+}
+.case-box1-small:hover img {
+    transform: scale(1.1);
+}
+.case-box1-small .mask {
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    top: 270px;
+    padding: 25px 50px 25px 30px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .7);
+    transition: top 1s;
+}
+.right .mask {
+    top: 540px;
+}
+.case-box1-small:hover .mask {
+    top: 160px;
+}
+.right:hover .mask {
+    top: 430px;
+}
+.case-box1-small .mask .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.case-box1-small .mask .text {
+    font-size: 12px;
+    line-height: 16px;
+}
+.case-box1-small .mask p {
+    transition: all 1s;
+}
+.case-box1-small .mask:hover p {
+    white-space: normal;
+}
+.visible {
+    display: block;
+}
+.hide {
+    display: none;
+}
+/*主体案例部分结束*/
+
+/*主体设计部分开始*/
+.paiky-design {
+    margin-top: 80px;
+    /*position: relative;*/
+    text-align: center;
+}
+.paiky-design h2 {
+    font-size: 30px;
+    /*position: absolute;*/
+    /*top: 10px;*/
+}
+.paiky-design h3 {
+    font-size: 18px;
+    color: #7D7D7D;
+    margin: 30px 0 12px;
+    /*position: absolute;*/
+    /*top: 80px;*/
+}
+.paiky-design p {
+    font-size: 16px;
+    color: #888;
+    line-height: 24px;
+    /*position: absolute;*/
+    /*top: 117px;*/
+}
+.paiky-design-img {
+    position: relative;
+    margin:66px 0 66px;
+}
+.paiky-design-img > img {
+    transition: all 1s;
+    cursor: pointer;
+}
+.paiky-design-img > img:hover {
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+.paiky-design-img .img-left {
+    position: absolute;
+    width: 186px;
+    height: 280px;
+    left: 280px;
+    top: 50%;
+    margin-top: -140px;
+}
+.paiky-design-img .img-left p:first-child {
+    position: absolute;
+    top: 243px;
+    right: -433px;
+    opacity: 0;
+}
+.paiky-design-img .img-left p:last-child {
+    position: absolute;
+    bottom: 243px;
+    right: -518px;
+    opacity: 0;
+}
+.paiky-design-img .img-right {
+    position: absolute;
+    width: 186px;
+    height: 280px;
+    right: 280px;
+    top: 50%;
+    margin-top: -140px;
+}
+.paiky-design-img .img-right p:first-child {
+    position: absolute;
+    top: 243px;
+    left: -477px;
+    opacity: 0;
+}
+.paiky-design-img .img-right p:last-child {
+    position: absolute;
+    bottom: 243px;
+    left: -453px;
+    opacity: 0;
+}
+/*主体设计部分结束*/
+.aggregation-banner {
+    width: 1349px;
+    height: 850px;
+    margin: 0 auto;
+    background: url(../images/aggregation-banner.jpg) 0 0  no-repeat;
+}
+.aggregation-ul {
+    position: relative;
+    height: 850px;
+    overflow: hidden;
+}
+.aggregation-ul .aggregation-li1 {
+    position: absolute;
+}
+.aggregation-ul p {
+    position: absolute;
+    opacity: 1;
+}
+.aggregation-ul .cimg-1 {
+    left: -500px;
+    top: 216px;
+    opacity: 0;
+}
+.aggregation-ul .cimg-2 {
+    left: -1000px;
+    top: 310px;
+    opacity: 0;
+}
+.aggregation-ul .cimg-4 {
+    left: -2000px;
+    top: 432px;
+    opacity: 0;
+}
+.aggregation-ul .cimg-3 {
+    right: -3260px;
+    top: 62px;
+    opacity: 0;
+}
+/*主体观点部分开始*/
+.banner-line-point {
+    background-color: #242424;
+    height: 850px;
+}
+.banner-point {
+    padding: 85px 0 0;
+    text-align: center;
+    background-color: #242424;
+}
+.banner-point h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+.banner-point p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+.banner-point .banner-point-ul {
+    margin: 40px 0 60px 340px;
+}
+.banner-point .banner-point-ul a {
+    display: block;
+    color: #fff;
+    border: 2px solid #686868;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-right: 4px;
+}
+.banner-point .banner-point-ul a:hover {
+    border: 2px solid #1C6AC3;
+    background-color: #1C6AC3;
+    box-sizing: border-box;
+}
+.point-box {
+    width: 950px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+.point-box li {
+    width: 440px;
+    position: absolute;
+    left: 465px;
+    overflow: hidden;
+}
+.point-index {
+    width: 100%;
+    color: #fff;
+    padding-top: 20px;
+    /*background-color: #2A58A3;*/
+    background-color: rgba(0, 0, 0, .4);
+}
+.point-index .time {
+    font-size: 26px;
+    /*margin-top: 20px;*/
+}
+.point-index span {
+    display: block;
+    font-size: 16px;
+    margin: 8px 0 8px;
+    color: #fff;
+}
+.point-index p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+.point-index a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.point-index a i {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background: url(../images/exploit-img14.png) no-repeat;
+    vertical-align: middle;
+}
+.point-index a:hover {
+    color: #2A58A3;
+}
+.point-arrow{
+    opacity: 0;
+    position: relative;
+    z-index: 99;
+    top:50%;
+
+}
+.point-arrow .prev,.point-arrow .next{
+    cursor: pointer;
+    width:76px;
+    height:112px;
+    position: absolute;
+    top:50%;
+    left: -86px;
+    margin-top:-106px;
+    /*background: url(../images/prev.jpg) no-repeat;*/
+    z-index: 99;
+    font-size: 150px;
+    color: rgba(255, 255, 255, .3);
+}
+.point-arrow span:hover {
+    color: rgba(255, 255, 255, .6);
+}
+.point-arrow .next{
+    left:950px;
+    /*background: url(../images/next.png) no-repeat;*/
+}
+
+/*主体观点部分结束*/
+/*主体底部部分开始*/
+.banner-footer {
+    background-color: #E9E9E9;
+}
+.banner-footer-box {
+    background-color: #E9E9E9;
+    width: 1260px;
+    margin: 0 auto;
+    padding: 25px 0 12px;
+}
+.banner-footer-link {
+    margin-bottom: 25px;
+}
+.banner-footer-link .footer-link-ul li {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #D3D3D3;
+    color: #666;
+    position: relative;
+    font-size: 13px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.footer-link-ul li i {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid #ADADAD;
+}
+.banner-footer-link .footer-link-ul .cur {
+    color: #fff;
+    background-color: #ADADAD;
+}
+.footer-link-qq {
+    color: #666;
+    padding: 10px 25px;
+    background-color: #DEDEDE;
+    border-radius: 25px;
+}
+.banner-footer-item li {
+    display: block;
+    padding: 0 30px 15px 0;
+}
+.banner-footer-item li a {
+    font-size: 13px;
+}
+/*主体底部部分结束*/

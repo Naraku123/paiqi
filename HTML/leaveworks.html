@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/leaveworks.css"/>
+</head>
+<body>
+<div class="leave-work">
+    <h1>请您留言</h1>
+
+    <div class="company-info">
+        <p>上海派琪网络传媒</p>
+        <span>400-880-8892</span>
+    </div>
+    <form class="form" action="#" method="get" name="user">
+        <div class="content-wrapper">
+            <textarea name="content" id="content" cols="30" rows="10" placeholder="请在此输入留言内容，我们会尽快与您联系。"
+                      spellcheck="false"></textarea>
+        </div>
+        <div class="visitorName-wrapper clearfix">
+            <label for="visitorName"></label>
+
+            <div class="ctrl-wrap">
+                <input type="text" name="visitorName" id="visitorName" placeholder="姓名"/>
+            </div>
+        </div>
+        <div class="visitorPhone-wrapper clearfix">
+            <label for="visitorPhone"></label>
+
+            <div class="ctrl-wrap">
+                <input type="text" name="visitorPhone" id="visitorPhone" placeholder="电话(必填)"/>
+            </div>
+        </div>
+        <div class="visitorMail-wrapper clearfix">
+            <label for="visitorMail"></label>
+
+            <div class="ctrl-wrap">
+                <input type="text" name="visitorMail" id="visitorMail" placeholder="邮箱"/>
+            </div>
+        </div>
+        <div class="visitorSite-wrapper clearfix">
+            <label for="visitorSite"></label>
+
+            <div class="ctrl-wrap">
+                <input type="text" name="visitorSite" id="visitorSite" placeholder="地址"/>
+            </div>
+        </div>
+        <button type="submit" class="send">发送</button>
+    </form>
+    <div class="brand"></div>
+    <div class="pic-bottom">
+        <img src="../picture/footer-img01.jpg" alt=""/>
+
+        <div class="pic-big"></div>
+    </div>
+</div>
+<script src="../js/jquery-1.12.4.js"></script>
+<script>
+    $(function () {
+        $("input").focus(function () {
+             price = $(this).attr("placeholder");
+            if ($(this).attr("placeholder")===price){
+                $(this).attr("placeholder", "");
+            }
+        });
+        $("input").blur(function () {
+            if ($(this).attr("placeholder") === "") {
+                $(this).attr("placeholder", price);
+            }
+        });
+        $("textarea").focus(function(){
+            if($(this).attr("placeholder")==="请在此输入留言内容，我们会尽快与您联系。"){
+                $(this).attr("placeholder", "");
+            }
+        });
+        $("textarea").blur(function(){
+            if($(this).attr("placeholder")===""){
+                $(this).attr("placeholder", "请在此输入留言内容，我们会尽快与您联系。");
+            }
+        });
+    });
+    var visitorPhone = document.querySelector("#visitorPhone");
+    var mobileReg =  /^1\d{10}$/;
+    $(".send").on("click",function(){
+        if(!mobileReg.test(visitorPhone.value)) {
+            $(".visitorPhone-wrapper span").remove();
+            $("<span></span>").appendTo($(".visitorPhone-wrapper")).text("请输入正确号码").css("color","red");
+            return false;
+        }else{
+            $(".visitorPhone-wrapper span").remove();
+        }
+    });
+
+
+
+
+</script>
+</body>
+</html>

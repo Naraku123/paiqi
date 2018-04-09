@@ -1,0 +1,495 @@
+/*banner区域开始*/
+.content-banner {
+    margin: 0 auto;
+    width: 100%;
+    height: 597px;
+    background: url(../picture/marketing-content-banner01.jpg) center no-repeat;
+
+}
+.content-banner-box {
+    overflow: hidden;
+    position: relative;
+    height: 597px;
+    background: url(../picture/marketing-content-banner01.jpg) center no-repeat;
+}
+.content-banner .img1 {
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+.content-banner .text-content {
+    position: absolute;
+    top: 300px;
+    left: 750px;
+}
+.content-banner .text-content h1 {
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.content-banner .text-content span {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.content-banner .text-content p {
+    font-size: 16px;
+    color: #BCBCBD;
+    padding-top: 30px;
+}
+/*banner区域结束*/
+
+/*system区域开始*/
+.system-box {
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 70px;
+}
+.system-box .system-text h1{
+    font-size: 30px;
+    color: #000000;
+}
+.system-box .system-text p {
+    font-size: 16px;
+    color: #666666;
+}
+.way-box {
+    margin: 30px auto 80px;
+    height: 320px;
+    width: 1260px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.way-box ul {
+    height: 320px;
+    width: 2500px;
+    position: relative;
+}
+
+.slide001 {
+    opacity: 1;
+    top: 0;
+    left: 0;
+}
+.slide002 {
+    opacity: 1;
+    top: 0;
+    left: 445px;
+}
+.slide003{
+    opacity: 1;
+    top: 0;
+    left: 890px;
+}
+.slide004{
+    top: 0;
+    left: 1335px;
+}
+.slide005{
+    display: none;
+    top: 0;
+    left: -1000px;
+}
+.slide006{
+    display: none;
+    top: 0;
+    left: -500px;
+}
+.way-box li {
+    position: absolute;
+    width: 370px;
+    text-align: center;
+    transition: all 1s;
+}
+.way-box li:nth-child(1) {
+    margin-left: 0;
+}
+.way-box dt {
+    width: 176px;
+    height: 176px;
+    margin: 0 auto 30px;
+    box-sizing: border-box;
+    border: 6px solid #E3E3E3;
+    border-radius: 10px;
+}
+.way-box .pic1 {
+    background: url(../images/marketing-content-icon01.png) center no-repeat;
+}
+.way-box .pic2 {
+    background: url(../images/marketing-content-icon02.png) center no-repeat;
+}
+.way-box .pic3 {
+    background: url(../images/marketing-content-icon03.png) center no-repeat;
+}
+.way-box dd h1 {
+    font-size: 18px;
+    color: #363636;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.way-box dd p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #565656;
+}
+/*system区域结束*/
+
+/*pasted区域开始*/
+.pasted {
+    width: 100%;
+    background: url(../images/marketing-content-img02.jpg) center no-repeat;
+}
+.pasted-con {
+    height: 776px;
+    position: relative;
+    background: url(../images/marketing-content-img02.jpg) center no-repeat;
+}
+.pasted-box {
+    position: absolute;
+    left: 280px;
+    top: 150px;
+    width: 543px;
+    height: 515px;
+    box-sizing: border-box;
+    background-color: #1A58AB;
+    padding: 120px 60px 0;
+}
+.pasted-box h1 {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.pasted-box span {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.pasted-box i {
+    height: 2px;
+    width: 45px;
+    background-color: #6D94C9;
+    margin:25px 0 30px;
+    display: block;
+}
+.pasted-box p {
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.pasted-black {
+    position: absolute;
+    top: -36px;
+    right: -36px;
+    width: 165px;
+    height: 155px;
+    box-sizing: border-box;
+    padding: 36px 0 0 30px;
+    background-color: #1F1F1F;
+}
+.pasted-black i {
+    width: 20px;
+    height: 3px;
+    background-color: #7F7F7F;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.pasted-black p {
+    margin-bottom: 0;
+}
+/*pasted区域结束*/
+/*brand-idea区域开始*/
+.brand-idea {
+    background: url(../images/marketing-content-bg01.jpg) center repeat;
+}
+.brand-idea-box {
+    height: 879px;
+    background: url(../images/marketing-content-bg01.jpg) center repeat;
+}
+.brand-idea-box .text {
+    text-align: center;
+    padding: 90px 0 70px;
+}
+.brand-idea-box .text h1 {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.brand-idea-box .text span {
+    color: #1A58AB;
+}
+.brand-idea-box .text p {
+    font-size: 16px;
+    color: #666666;
+}
+.brand-idea-box .grids{
+    width: 1260px;
+    height: 640px;
+    box-sizing: border-box;
+    position: relative;
+}
+.brand-idea-box .grids li {
+    position: absolute;
+    width: 630px;
+    height: 320px;
+    box-sizing: border-box;
+    padding: 85px 0 0 80px;
+}
+.brand-idea-box .grids li:nth-child(1){
+    top: 0;
+    left: 0;
+}
+.brand-idea-box .grids li:nth-child(2){
+    top: 0;
+    right: 0;
+}
+.brand-idea-box .grids li:nth-child(3){
+    bottom: 0;
+    left: 0;
+}
+.brand-idea-box .grids li:nth-child(4){
+    bottom: 0;
+    right: 0;
+}
+.bg-blue {
+    background-color: #1A58AB;
+}
+.brand-idea-box .grids dt {
+    margin-bottom: 20px;
+}
+.brand-idea-box .grids h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.brand-idea-box .grids p {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.brand-idea-box .grids li:nth-child(2) {
+    background: url(../images/marketing-content-img06.jpg) 0 0 no-repeat;
+}
+.brand-idea-box .grids li:nth-child(3) {
+    background: url(../images/marketing-content-img06.jpg) 0 bottom no-repeat;
+}
+.brand-idea-box .grids li:nth-child(2) h1,
+.brand-idea-box .grids li:nth-child(3) h1 {
+    color: #555758;
+}
+.brand-idea-box .grids li:nth-child(2) p,
+.brand-idea-box .grids li:nth-child(3) p {
+    color: #666666;
+}
+/*brand-idea区域结束*/
+/*service-integrate区域开始*/
+.service-integrate {
+    width: 100%;
+}
+.service-integrate-box .text {
+    text-align: center;
+    padding: 120px 0 60px;
+}
+.service-integrate-box .text h1{
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.service-integrate-box .text p {
+    font-size: 18px;
+    color: #666666;
+}
+.service-integrate-box ul li {
+    float: left;
+    width: 390px;
+    text-align: center;
+    margin-left: 45px;
+}
+.service-integrate-box li dt{
+    width: 390px;
+    height: 223px;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+}
+.service-integrate-box ul li:nth-child(1) {
+    margin-left: 0;
+}
+.service-integrate-box li dd {
+    margin-top: 35px;
+}
+.service-integrate-box dd p {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+.service-integrate-box dd span {
+    color: #6C6C6C;
+    font-size: 16px;
+}
+.service-integrate-box .text-bottom {
+    margin-top: 45px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 80px;
+}
+/*service-integrate区域结束*/
+/*soft-service区域开始*/
+.soft-service {
+    width: 100%;
+    background: url(../images/marketing-content-img123.png) center no-repeat;
+
+}
+.soft-service-box {
+    padding-top: 225px;
+    text-align: center;
+    background: url(../images/marketing-content-img11.png) center no-repeat;
+}
+.soft-text > h1 {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.soft-text > .title {
+    font-size: 18px;
+    margin: 10px 0 26px;
+    color: #FFFFFF;
+}
+.soft-text > .text {
+    font-size: 14px;
+    color: #B9C1D6;
+    line-height: 22px;
+}
+.nav {
+    margin-top: 55px;
+    padding-bottom: 55px;
+    height: 60px;
+}
+.nav ul {
+    display: inline-block;
+}
+.nav li {
+    float: left;
+    margin-left: 45px;
+}
+.nav li:nth-child(1) {
+    margin-left: 0;
+}
+.nav li a {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+/*soft-service区域开始*/
+/*our-idea区域开始*/
+.our-idea {
+    height: 850px;
+    width: 100%;
+    background: url(../images/exploit-img13.jpg) center no-repeat;
+}
+.our-idea-box {
+    height: 850px;
+    background: url(../images/exploit-img13.jpg) center no-repeat;
+
+}
+.our-idea-box .text {
+    padding-top: 85px;
+    text-align: center;
+}
+.our-idea-box .text > h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+
+}
+.our-idea-box .text > p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.our-idea-box ul {
+    padding-top: 60px;
+}
+.our-idea-box ul > li {
+    float: left;
+    width: 389px;
+    margin-left: 46px;
+}
+.our-idea-box ul > li:first-child {
+    margin-left: 0;
+}
+.our-idea-box li dd {
+    padding-top: 20px;
+}
+.our-idea-box dd .time {
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.our-idea-box dd .title {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #FFFFFF;
+}
+.our-idea-box dd .text-p {
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 30px;
+    margin-bottom: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #FFFFFF;
+}
+.our-idea-box dd a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.our-idea-box dd i {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background: url(../images/exploit-img14.png) no-repeat;
+}
+/*our-idea区域结束*/
+
+
+.animate001 {
+    opacity: 0;
+    transform: rotate(-90deg);
+}
+.animate002 {
+    opacity: 0;
+    transform: translateX(300px);
+}
+.animate003 {
+    opacity: 0;
+    transform: translateY(100px);
+}
+.animate004 {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+.animate005 {
+    opacity: 0;
+    transform: rotate(180deg);
+}
+.animate006 {
+    transform: scale(1.2,1.2);
+    transition: all 0.8s;
+}
+.noneanimate002 {
+    transform: scale(1,1);
+    transition: all 0.8s;
+}
+.noneanimate001 {
+    transition: all .8s;
+    opacity: 1;
+    transform:  translateX(0px)
+                translateY(0px)
+                rotate(0deg);
+}
+@keyframes pasted-black-ani {
+     0%{
+         transform: rotate(0deg);
+     }
+    100% {
+        transform: rotate(360deg);
+    }
+}

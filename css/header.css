@@ -1,0 +1,158 @@
+.header-top {
+    height: 30px;
+}
+.header-top span {
+    line-height: 30px;
+}
+.header-top ul li {
+    line-height: 30px;
+}
+.header-top ul li a {
+    padding: 10px;
+}
+.header-top ul li span {
+    color: #D3D3D3;
+}
+.header-middle {
+    height: 88px;
+}
+.header-middle span {
+    margin-top: 23px;
+    color: #1A58AB;
+    width: 168px;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+.header-middle li .icon {
+    width: 43px;
+    height: 43px;
+    margin-right: 5px;
+}
+.header-middle li .icon1 {
+    background: url(../images/design-case-icon01.png) 0 0 no-repeat;
+}
+.header-middle li:hover .icon1 {
+    background: url(../images/design-case-icon001.png) 0 0 no-repeat;
+}
+.header-middle li .icon2 {
+    background: url(../images/design-case-icon002.png) 0 0 no-repeat;
+}
+.header-middle li:hover .icon2 {
+    background: url(../images/design-case-icon02.png) 0 0 no-repeat;
+}
+.header-middle li .icon3 {
+    background: url(../images/design-case-icon003.png) 0 0 no-repeat;
+}
+.header-middle li:hover .icon3 {
+    background: url(../images/design-case-icon03.png) 0 0 no-repeat;
+}
+.header-middle li:hover h4, .header-middle li:hover p {
+    color: #1A58AB;
+}
+.header-middle li {
+    margin-top: 23px;
+    width: 170px;
+}
+.header-middle ul .current {
+    margin: 23px 25px;
+}
+.headerline {
+    background-color: #1A58AB;
+    height: 72px;
+}
+.header-nav {
+    background-color: #1A58AB;
+    height: 72px;
+}
+.header-nav .logo {
+    width: 180px;
+    height: 60px;
+    margin-top: 6px;
+    background: url(../images/paiky-logo.jpg) 0 0 no-repeat;
+}
+
+.header-nav .logo h1 {
+    text-indent: -9999px;
+}
+.header-nav-sub a {
+    height: 71px;
+    padding: 17px 26px 0;
+    box-sizing: border-box;
+    text-align: center;
+    border-left: 1px solid #3469B4;
+}
+.header-nav-sub a:last-child {
+    border-right: 1px solid #3469B4;
+}
+.header-nav-sub a p {
+    color: #fff;
+    font-size: 15px;
+}
+.header-nav-sub .cur {
+    background-color: #25519E;
+}
+.header-nav-sub a:hover {
+    background-color: #25519E;
+
+}
+.header-nav-sub a .icon6 {
+    width: 11px;
+    height: 6px;
+    display: inline-block;
+    background: url(../images/design-case-icon06.png) 0 0 no-repeat;
+    transition: all .4s;
+}
+.header-nav-sub a span {
+     color: #88A8D3;
+
+ }
+.header-nav-sub .product {
+    position: relative;
+}
+.header-nav-sub .product .bottom-nav {
+    display: none;
+    width: 159px;
+    position: absolute;
+    left: -1px;
+    top: 71px;
+    text-align: center;
+    z-index: 99;
+}
+.header-nav-sub .product:hover .bottom-nav {
+    display: block;
+}
+.header-nav-sub .product:hover .icon6 {
+    transform: rotate(180deg);
+}
+.header-nav-sub .product .bottom-nav1,
+.header-nav-sub .product .bottom-nav2,
+.header-nav-sub .product .bottom-nav3 {
+    /*position: relative;*/
+    background-color: #1E468C;
+    padding: 20px 0;
+}
+.header-nav-sub .product .bottom-nav2 {
+    background-color: #2A57AA;
+}
+.header-nav-sub .product .bottom-nav p {
+    display: block;
+    line-height: 38px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 25px;
+}
+.header-nav-sub .product .bottom-nav2 s {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid #2A57AA;
+    position: absolute;
+    bottom: 96px;
+}
+.header-nav-sub .product .bottom-nav1 s {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid #1E468C;
+    position: absolute;
+    bottom: 193px;
+}

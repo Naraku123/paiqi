@@ -1,0 +1,151 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #D0D0D0;
+}
+.leave-work {
+    width: 360px;
+    height: 500px;
+    margin: 40px auto;
+    background-color: #EDEDED;
+    position: relative;
+}
+.leave-work > h1 {
+    height: 40px;
+    background-color: #00AEF3;
+    line-height: 40px;
+    display: block;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.company-info {
+    height: 60px;
+    border-bottom: 1px solid #cccccc;
+    background-color: #EDEDED;
+}
+.company-info p {
+    padding:10px 0 0 25px;
+    font-size: 16px;
+    color: #666666;
+}
+.company-info span {
+    padding-left: 25px;
+    font-size: 12px;
+}
+.leave-work .form {
+    margin-top: 30px;
+}
+.content-wrapper {
+    width: 300px;
+    height: 70px;
+    margin: 0 30px 6px;
+}
+.form textarea,
+.form input {
+    outline: none;
+}
+.content-wrapper textarea {
+    border: 1px solid #cccccc;
+    width: 300px;
+    height: 70px;
+    padding: 3px;
+    font-size: 12px;
+    color: #8a8c8d;
+    resize: none;
+    box-sizing: border-box;
+}
+.visitorName-wrapper,
+.visitorPhone-wrapper,
+.visitorMail-wrapper,
+.visitorSite-wrapper {
+    border: 1px solid #cccccc;
+    height: 32px;
+    margin: 0 29px 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.visitorName-wrapper > label {
+    width: 31px;
+    height: 32px;
+    background: url(../images/user.png) center no-repeat;
+    display: inline-block;
+    float: left;
+}
+.visitorPhone-wrapper >label {
+    width: 31px;
+    height: 32px;
+    background: url(../images/phone.png) center no-repeat;
+    display: inline-block;
+    float: left;
+}
+.visitorMail-wrapper >label {
+    width: 31px;
+    height: 32px;
+    background: url(../images/mail.png) center no-repeat;
+    display: inline-block;
+    float: left;
+}
+.visitorSite-wrapper >label {
+    width: 31px;
+    height: 32px;
+    background: url(../images/location.png) center no-repeat;
+    display: inline-block;
+    float: left;
+}
+.ctrl-wrap {
+    width: 269px;
+    height: 32px;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 32px;
+}
+.ctrl-wrap input {
+    border: 0;
+    width: 269px;
+    height: 20px;
+    list-style: none;
+}
+.form .send {
+    margin: 0 30px 6px;
+    border: 0;
+    width: 80px;
+    height: 30px;
+    background-color: #00aef3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.leave-work .brand {
+    width: 360px;
+    height: 12px;
+    margin-top: 20px;
+    background: transparent url(../images/brand.png) center no-repeat;
+}
+.pic-bottom {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+    border: 2px solid #cccccc;
+    text-align: center;
+    line-height: 37px;
+}
+.pic-bottom > img {
+    width: 38px;
+    height: 38px;
+}
+.pic-bottom .pic-big {
+    width: 86px;
+    height: 88px;
+    background: url(../picture/footer-img01.jpg) center no-repeat;
+    position: absolute;
+    left: 45px;
+    bottom: 0;
+    border: 2px solid #cccccc;
+    display: none;
+}
+.pic-bottom:hover .pic-big{
+    display: block;
+}
